@@ -5,17 +5,17 @@
 			"/** @test */",
 			"function $1()",
 			"{",
-			"\t$2",
+			"\t$0",
 			"}"
 		],
 		"description": "Basic test"
 	},
-	"Public method": {
+	"Method": {
 		"prefix": "meth",
 		"body": [
-			"public function $1()",
+			"${1:public} function $2()",
 			"{",
-			"\t$2",
+			"\t$3",
 			"}"
 		],
 		"description": "Basic test"
