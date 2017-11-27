@@ -23,7 +23,7 @@
 	"Laravel factory create": {
 		"prefix": "facc",
 		"body": [
-			"\\$${1:machin} = factory(${2:Machin}::class)->create(${3:[$4]});",
+			"\\$${1:machin} = factory(${2:Machin}::class)${3:->states('$4')}->create(${5:[$6]});",
 		],
 		"description": "Laravel factory create and store"
 	},
