@@ -13,9 +13,9 @@
 	"Method": {
 		"prefix": "meth",
 		"body": [
-			"${1:public} function $2()",
+			"${1:public} function $2($3)",
 			"{",
-			"\t$3",
+			"\t$4",
 			"}"
 		],
 		"description": "Basic test"
